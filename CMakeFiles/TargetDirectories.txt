@@ -1,0 +1,7 @@
+/global/homes/a/areeb/hpc-mmul/CMakeFiles/rebuild_cache.dir
+/global/homes/a/areeb/hpc-mmul/CMakeFiles/bench-blocked.dir
+/global/homes/a/areeb/hpc-mmul/CMakeFiles/edit_cache.dir
+/global/homes/a/areeb/hpc-mmul/CMakeFiles/benchmark-blocked.dir
+/global/homes/a/areeb/hpc-mmul/CMakeFiles/benchmark-blas.dir
+/global/homes/a/areeb/hpc-mmul/CMakeFiles/benchmark-basic.dir
+/global/homes/a/areeb/hpc-mmul/CMakeFiles/benchmark.dir
