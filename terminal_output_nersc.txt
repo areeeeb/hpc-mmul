@@ -1,0 +1,129 @@
+areeb@nid004190:~/hpc-mmul> ./benchmark-blas 
+Description:    Reference dgemm.
+
+Working on problem size N=64 
+ MFLOP/S =1055.02
+ Elapsed time for computation =0.00
+Working on problem size N=64 
+ MFLOP/S =132919.88
+ Elapsed time for computation =0.00
+Working on problem size N=128 
+ MFLOP/S =105802.80
+ Elapsed time for computation =0.00
+Working on problem size N=256 
+ MFLOP/S =127488.12
+ Elapsed time for computation =0.00
+Working on problem size N=512 
+ MFLOP/S =174232.10
+ Elapsed time for computation =0.01
+Working on problem size N=1024 
+ MFLOP/S =177277.80
+ Elapsed time for computation =0.04
+Working on problem size N=2048 
+ MFLOP/S =179489.73
+ Elapsed time for computation =0.34
+
+
+
+
+areeb@nid004190:~/hpc-mmul> ./benchmark-basic 
+Description:    Basic implementation, three-loop dgemm.
+
+Working on problem size N=64 
+ MFLOP/S =11277.12
+ Elapsed time for computation =0.00
+Working on problem size N=64 
+ MFLOP/S =10928.11
+ Elapsed time for computation =0.00
+Working on problem size N=128 
+ MFLOP/S =5360.29
+ Elapsed time for computation =0.00
+Working on problem size N=256 
+ MFLOP/S =3235.27
+ Elapsed time for computation =0.04
+Working on problem size N=512 
+ MFLOP/S =940.35
+ Elapsed time for computation =1.00
+Working on problem size N=1024 
+ MFLOP/S =719.27
+ Elapsed time for computation =10.45
+Working on problem size N=2048 
+ MFLOP/S =211.04
+ Elapsed time for computation =284.96
+
+
+
+    
+areeb@nid004190:~/hpc-mmul> ./benchmark-blocked 
+Description:    Blocked dgemm with copy optimization.
+
+Working on problem size N=64 
+Blocked DGEMM 
+ MFLOP/S =2811.30
+ Elapsed time for computation =0.00
+ MFLOP/S =16049.74
+ Elapsed time for computation =0.00
+ MFLOP/S =15012.46
+ Elapsed time for computation =0.00
+ MFLOP/S =10090.71
+ Elapsed time for computation =0.00
+Working on problem size N=64 
+Blocked DGEMM 
+ MFLOP/S =2817.41
+ Elapsed time for computation =0.00
+ MFLOP/S =15425.30
+ Elapsed time for computation =0.00
+ MFLOP/S =15860.26
+ Elapsed time for computation =0.00
+ MFLOP/S =12079.03
+ Elapsed time for computation =0.00
+Working on problem size N=128 
+Blocked DGEMM 
+ MFLOP/S =2880.46
+ Elapsed time for computation =0.01
+ MFLOP/S =16088.04
+ Elapsed time for computation =0.00
+ MFLOP/S =15694.44
+ Elapsed time for computation =0.00
+ MFLOP/S =11769.04
+ Elapsed time for computation =0.00
+Working on problem size N=256 
+Blocked DGEMM 
+ MFLOP/S =2859.29
+ Elapsed time for computation =0.04
+ MFLOP/S =16220.50
+ Elapsed time for computation =0.01
+ MFLOP/S =15999.47
+ Elapsed time for computation =0.01
+ MFLOP/S =12269.82
+ Elapsed time for computation =0.01
+Working on problem size N=512 
+Blocked DGEMM 
+ MFLOP/S =2792.81
+ Elapsed time for computation =0.34
+ MFLOP/S =16381.04
+ Elapsed time for computation =0.06
+ MFLOP/S =15885.58
+ Elapsed time for computation =0.06
+ MFLOP/S =11928.65
+ Elapsed time for computation =0.08
+Working on problem size N=1024 
+Blocked DGEMM 
+ MFLOP/S =2905.13
+ Elapsed time for computation =2.59
+ MFLOP/S =16061.10
+ Elapsed time for computation =0.47
+ MFLOP/S =15657.29
+ Elapsed time for computation =0.48
+ MFLOP/S =11845.71
+ Elapsed time for computation =0.63
+Working on problem size N=2048 
+Blocked DGEMM 
+ MFLOP/S =2961.70
+ Elapsed time for computation =20.31
+ MFLOP/S =15288.27
+ Elapsed time for computation =3.93
+ MFLOP/S =15305.09
+ Elapsed time for computation =3.93
+ MFLOP/S =11781.27
+ Elapsed time for computation =5.10
